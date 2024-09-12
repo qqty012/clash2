@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/Dreamacro/clash/common/cache"
-	"github.com/Dreamacro/clash/component/dialer"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/qqty012/clash2/common/cache"
+	"github.com/qqty012/clash2/component/dialer"
+	C "github.com/qqty012/clash2/constant"
 )
 
 const rejectCountLimit = 50

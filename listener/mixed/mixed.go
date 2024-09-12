@@ -4,13 +4,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/Dreamacro/clash/common/cache"
-	N "github.com/Dreamacro/clash/common/net"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/listener/http"
-	"github.com/Dreamacro/clash/listener/socks"
-	"github.com/Dreamacro/clash/transport/socks4"
-	"github.com/Dreamacro/clash/transport/socks5"
+	"github.com/qqty012/clash2/common/cache"
+	N "github.com/qqty012/clash2/common/net"
+	C "github.com/qqty012/clash2/constant"
+	"github.com/qqty012/clash2/listener/http"
+	"github.com/qqty012/clash2/listener/socks"
+	"github.com/qqty012/clash2/transport/socks4"
+	"github.com/qqty012/clash2/transport/socks5"
 )
 
 type Listener struct {

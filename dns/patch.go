@@ -5,9 +5,9 @@ import (
 
 	D "github.com/miekg/dns"
 
-	"github.com/Dreamacro/clash/common/cache"
-	"github.com/Dreamacro/clash/component/dhcp"
-	"github.com/Dreamacro/clash/component/resolver"
+	"github.com/qqty012/clash2/common/cache"
+	"github.com/qqty012/clash2/component/dhcp"
+	"github.com/qqty012/clash2/component/resolver"
 )
 
 const SystemDNSPlaceholder = "system"

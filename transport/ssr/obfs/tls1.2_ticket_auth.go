@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Dreamacro/clash/common/pool"
-	"github.com/Dreamacro/clash/transport/ssr/tools"
+	"github.com/qqty012/clash2/common/pool"
+	"github.com/qqty012/clash2/transport/ssr/tools"
 )
 
 func init() {

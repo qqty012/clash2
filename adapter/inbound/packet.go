@@ -4,8 +4,8 @@ import (
 	"net"
 	"strconv"
 
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/transport/socks5"
+	C "github.com/qqty012/clash2/constant"
+	"github.com/qqty012/clash2/transport/socks5"
 )
 
 // PacketAdapter is a UDP Packet adapter for socks/redir/tun

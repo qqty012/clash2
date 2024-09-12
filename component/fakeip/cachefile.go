@@ -3,7 +3,7 @@ package fakeip
 import (
 	"net"
 
-	"github.com/Dreamacro/clash/component/profile/cachefile"
+	"github.com/qqty012/clash2/component/profile/cachefile"
 )
 
 type cachefileStore struct {

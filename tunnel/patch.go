@@ -3,7 +3,7 @@ package tunnel
 import (
 	"net"
 
-	C "github.com/Dreamacro/clash/constant"
+	C "github.com/qqty012/clash2/constant"
 )
 
 func relayHijack(left net.Conn, right net.Conn) bool {

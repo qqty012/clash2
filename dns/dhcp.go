@@ -1,3 +1,4 @@
+//go:build disabled
 // +build disabled
 
 package dns
@@ -9,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/component/dhcp"
-	"github.com/Dreamacro/clash/component/iface"
-	"github.com/Dreamacro/clash/component/resolver"
+	"github.com/qqty012/clash2/component/dhcp"
+	"github.com/qqty012/clash2/component/iface"
+	"github.com/qqty012/clash2/component/resolver"
 
 	D "github.com/miekg/dns"
 )

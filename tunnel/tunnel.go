@@ -3,21 +3,21 @@ package tunnel
 import (
 	"context"
 	"fmt"
-	"github.com/Dreamacro/clash/utils"
+	"github.com/qqty012/clash2/utils"
 	"net"
 	"runtime"
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	"github.com/Dreamacro/clash/component/nat"
-	P "github.com/Dreamacro/clash/component/process"
-	"github.com/Dreamacro/clash/component/resolver"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/constant/provider"
-	icontext "github.com/Dreamacro/clash/context"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/tunnel/statistic"
+	"github.com/qqty012/clash2/adapter/inbound"
+	"github.com/qqty012/clash2/component/nat"
+	P "github.com/qqty012/clash2/component/process"
+	"github.com/qqty012/clash2/component/resolver"
+	C "github.com/qqty012/clash2/constant"
+	"github.com/qqty012/clash2/constant/provider"
+	icontext "github.com/qqty012/clash2/context"
+	"github.com/qqty012/clash2/log"
+	"github.com/qqty012/clash2/tunnel/statistic"
 )
 
 var (

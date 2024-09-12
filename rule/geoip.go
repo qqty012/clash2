@@ -3,8 +3,8 @@ package rules
 import (
 	"strings"
 
-	"github.com/Dreamacro/clash/component/mmdb"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/qqty012/clash2/component/mmdb"
+	C "github.com/qqty012/clash2/constant"
 )
 
 type GEOIP struct {

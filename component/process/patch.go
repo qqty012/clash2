@@ -1,6 +1,6 @@
 package process
 
-import "github.com/Dreamacro/clash/constant"
+import "github.com/qqty012/clash2/constant"
 
 type PackageNameResolver func(metadata *constant.Metadata) (string, error)
 

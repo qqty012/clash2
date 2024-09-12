@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	types "github.com/Dreamacro/clash/constant/provider"
-	"github.com/Dreamacro/clash/log"
+	types "github.com/qqty012/clash2/constant/provider"
+	"github.com/qqty012/clash2/log"
 )
 
 const (

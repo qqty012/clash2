@@ -1,8 +1,8 @@
 package outboundgroup
 
 import (
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/constant/provider"
+	C "github.com/qqty012/clash2/constant"
+	"github.com/qqty012/clash2/constant/provider"
 )
 
 type ProxyGroup interface {

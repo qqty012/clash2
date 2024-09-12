@@ -12,10 +12,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Dreamacro/clash/common/pool"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/transport/shadowsocks/core"
-	"github.com/Dreamacro/clash/transport/ssr/tools"
+	"github.com/qqty012/clash2/common/pool"
+	"github.com/qqty012/clash2/log"
+	"github.com/qqty012/clash2/transport/shadowsocks/core"
+	"github.com/qqty012/clash2/transport/ssr/tools"
 )
 
 func init() {

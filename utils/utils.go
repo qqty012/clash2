@@ -2,7 +2,7 @@ package utils
 
 import (
 	"fmt"
-	"github.com/Dreamacro/clash/constant"
+	"github.com/qqty012/clash2/constant"
 	"os"
 	"time"
 )
