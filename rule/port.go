@@ -71,26 +71,30 @@ func (p *Port) ShouldFindProcess() bool {
 	return false
 }
 
-func NewPort(port string, adapter string, isSource bool) (*Port, error) {
+func NewPort(port string, adapter string, isSource bool, params []string) (*Port, error) {
 
 	re, err := regexp.Compile("[0-9]+")
 	if err != nil {
 		return nil, err
 	}
 	_port := re.FindString(port)
-	compare := strings.Replace(port, _port, "", 1)
+	compare := ""
+
+	if len(params) > 0 {
+		compare = strings.Trim(params[0], " ")
+	}
+	compare = strings.Replace(port, _port, "", 1)
 	if compare == "" {
 		compare = "="
 	}
 
-	fmt.Printf("%s %s\n", compare, _port)
 	_, err = strconv.ParseUint(_port, 10, 16)
 	if err != nil {
 		return nil, errPayload
 	}
 	return &Port{
 		adapter:  adapter,
-		port:     port,
+		port:     _port,
 		isSource: isSource,
 		compare:  strings.Trim(compare, " "),
 	}, nil

@@ -30,9 +30,9 @@ func ParseRule(tp, payload, target string, params []string) (C.Rule, error) {
 	case C.RuleConfigSrcIPCIDR:
 		parsed, parseErr = NewIPCIDR(payload, target, WithIPCIDRSourceIP(true), WithIPCIDRNoResolve(true))
 	case C.RuleConfigSrcPort:
-		parsed, parseErr = NewPort(payload, target, true)
+		parsed, parseErr = NewPort(payload, target, true, params)
 	case C.RuleConfigDstPort:
-		parsed, parseErr = NewPort(payload, target, false)
+		parsed, parseErr = NewPort(payload, target, false, params)
 	case C.RuleConfigProcessName:
 		parsed, parseErr = NewProcess(payload, target, true)
 	case C.RuleConfigProcessPath:
